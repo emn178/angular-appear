@@ -13,6 +13,12 @@ A jQuery plugin provides appear and disappear events to do infinite scroll or el
 * [jQuery-appear](https://github.com/emn178/jquery-appear)  
 * [AngularJS](https://angularjs.org/)  
 
+## Usage
+Add the ngAppear module as a dependency to your application module:
+```JavaScript
+var myAppModule = angular.module('MyApp', ['ngAppear'])
+```
+
 ## ngAppear
 The ngAppear directive allows you to specify custom behavior when an element appears.
 
