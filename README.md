@@ -69,6 +69,31 @@ HTML
 <div ng-appear="show = true" ng-disappear="show = false" ng-class="{show: show}" />
 ```
 
+## ngAppearing
+The ngAppearing directive allows you to specify custom behavior when scrolling and element is in screen.
+
+### Directive Info
+This directive executes at priority level 0.
+
+### Usage
+as attribute:
+HTML
+```HTML
+<ANY
+  ng-appearing="">
+...
+</ANY>
+```
+### Arguments
+| Param | Type | Details |
+|:-----|:-------|-------|
+|ngAppearing   |expression     |Expression to evaluate upon appear. (Event object is available as $event)    |
+
+### Example
+```HTML
+<div ng-appearing="show = true" ng-class="{show: show}" />
+```
+
 ## License
 The project is released under the [MIT license](http://www.opensource.org/licenses/MIT).
 

@@ -1,5 +1,5 @@
 /*
- * angular-appear v0.1.0
+ * angular-appear v0.1.1
  * https://github.com/emn178/angular-appear
  *
  * Copyright 2014, emn178@gmail.com
@@ -9,7 +9,7 @@
  */
 ;(function(angular) {
   var ngAppear = angular.module('ngAppear', []);
-  ['appear', 'disappear'].forEach(function(eventName) {
+  ['appear', 'disappear', 'appearing'].forEach(function(eventName) {
     var directiveName = 'ng' + eventName.substring(0,1).toUpperCase() + eventName.substring(1);
     ngAppear.directive(directiveName, ['$parse', function($parse) {
       return {

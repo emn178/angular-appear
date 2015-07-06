@@ -38,7 +38,7 @@
       <h3>HTML</h3>
       <pre class="brush: html">
         &lt;div id=&quot;loading&quot;&gt;
-          &lt;img src=&quot;loading.gif&quot; ng-hide=&quot;nomore&quot; ng-appear=&quot;load()&quot; /&gt;
+          &lt;img src=&quot;loading.gif&quot; ng-hide=&quot;nomore&quot; ng-appearing=&quot;load()&quot; /&gt;
           &lt;p ng-show=&quot;nomore&quot;&gt;No more data&lt;/p&gt;
         &lt;/div&gt;
       </pre>
@@ -53,7 +53,7 @@
       </div>
     </div>
     <div id="loading">
-      <img src="loading.gif" ng-hide="nomore" ng-appear="load()" />
+      <img src="loading.gif" ng-hide="nomore" ng-appearing="load()" />
       <p ng-show="nomore">No more data</p>
     </div>
   </div>
@@ -76,6 +76,7 @@
           if($scope.posts.length == maxPosts) {
             $scope.nomore = true;
           }
+          $.appear.check();
         }, 500);
       }
     }]);
