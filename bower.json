@@ -9,6 +9,6 @@
   ],
   "dependencies": {
     "angular": "~1.2.26",
-    "jquery-appear": "~0.2.3"
+    "jquery-appear": "~0.2.2"
   }
 }
