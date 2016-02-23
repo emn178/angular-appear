@@ -1,12 +1,22 @@
 # angular-appear
 A jQuery plugin provides appear and disappear events to do infinite scroll or else effect.
 
-## Download
-[Compress](https://raw.github.com/emn178/angular-appear/master/build/jquery.appear.min.js)  
-[Uncompress](https://raw.github.com/emn178/angular-appear/master/src/jquery.appear.js)
-
 ## Demo
-[Infinite Scroll](http://emn178.github.io/angular-appear/samples/infinite-scroll/)  
+[Infinite Scroll](https://emn178.github.io/angular-appear/samples/infinite-scroll/)  
+
+## CDN
+Compress: https://cdn.rawgit.com/emn178/angular-appear/master/build/angular-appear.min.js  
+Uncompress: https://cdn.rawgit.com/emn178/angular-appear/master/src/angular-appear.js
+
+## Download
+[Compress](https://raw.github.com/emn178/angular-appear/master/build/angular-appear.min.js)  
+[Uncompress](https://raw.github.com/emn178/angular-appear/master/src/angular-appear.js)
+
+## Installation
+You can also install angular-appear by using Bower.
+```
+bower install angular-appear
+```
 
 ## Requirements
 * [jQuery](http://jquery.com/)
@@ -99,4 +109,4 @@ The project is released under the [MIT license](http://www.opensource.org/licens
 
 ## Contact
 The project's website is located at https://github.com/emn178/angular-appear  
-Author: emn178@gmail.com
+Author: Yi-Cyuan Chen (emn178@gmail.com)
